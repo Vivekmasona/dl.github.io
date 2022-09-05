@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<html xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+ <head>
+   
+   
+<link href='https://blogger.googleusercontent.com/img/a/AVvXsEiMqPWZMtW_AkSpNjuP3ivzZJA4CdXnlk-czDMGN1XYLBYLE-qA1_XRhtWB5YX2MzsqtHoWUcfVGFoRF0wL0Wa-EbCPF-PjwBQzZYVynym4zzKXQfmPxjw6DZDZ-NqdXDTJfcI8Crzq2S1VYzi1l9kn4LvSC3ukQsu4DcRcdHKImXtfj7if_EjXf8RLVw' rel='apple-touch-icon' sizes='180x180'/>
+
+
+
+<link href='https://blogger.googleusercontent.com/img/a/AVvXsEiMqPWZMtW_AkSpNjuP3ivzZJA4CdXnlk-czDMGN1XYLBYLE-qA1_XRhtWB5YX2MzsqtHoWUcfVGFoRF0wL0Wa-EbCPF-PjwBQzZYVynym4zzKXQfmPxjw6DZDZ-NqdXDTJfcI8Crzq2S1VYzi1l9kn4LvSC3ukQsu4DcRcdHKImXtfj7if_EjXf8RLVw' rel='icon' sizes='32x32' type='image/png'/>
+
+
+
+<link href='https://blogger.googleusercontent.com/img/a/AVvXsEiMqPWZMtW_AkSpNjuP3ivzZJA4CdXnlk-czDMGN1XYLBYLE-qA1_XRhtWB5YX2MzsqtHoWUcfVGFoRF0wL0Wa-EbCPF-PjwBQzZYVynym4zzKXQfmPxjw6DZDZ-NqdXDTJfcI8Crzq2S1VYzi1l9kn4LvSC3ukQsu4DcRcdHKImXtfj7if_EjXf8RLVw' rel='icon' sizes='16x16' type='image/png'/>
+
+
+
+<link href='https://drive.google.com/uc?id=1iSI7faVoba8Yg7FmyVaZQ1L5EXuGLhQ5' rel='manifest'/>
+
+   
+   <meta content='#DE3163' name='theme-color'/>
+<meta content='#DE3163' name='msapplication-navbutton-color'/>
+<meta content='yes' name='apple-mobile-web-app-capable'/>
+<meta content='#DE3163' name='apple-mobile-web-app-status-bar-style'/>
+
+
+   
+   
+   <meta content='width=device-width, initial-scale=1.0' name='viewport'>
+   
+   </meta>
+  
+  
+  <b:include data='blog' name='all-head-content'/>
+  <title><data:blog.pageTitle/></title>
+  <b:skin><![CDATA[
+   /* 
+    body { 
+     font: $(body.font); 
+     color: $(body.text.color); 
+     background: $(body.background); 
+     ping: 0 $(content.shadow.spread) $(content.shadow.spread) $(content.shadow.spread); 
+     $(body.background.override) margin: 0; 
+     padding: 0; 
+    }
+   
+  ]]></b:skin>
+ </head>
+ <body>
+   
+   
+ 
+  <b:section class='main' id='main' showaddelement='yes'>
+    <b:widget id='HTML4' locked='false' title='' type='HTML'>
+      <b:widget-settings>
+        <b:widget-setting name='content'>&lt;script type=&#39;text/javascript&#39;&gt;
+//&lt;![CDATA[
+var message=&quot;NoRightClicking&quot;; function defeatIE() {if (document.all) {(message);return false;}} function defeatNS(e) {if (document.layers||(document.getElementById&amp;&amp;!document.all)) { if (e.which==2||e.which==3) {(message);return false;}}} if (document.layers) {document.captureEvents(Event.MOUSEDOWN);document.onmousedown=defeatNS;} else{document.onmouseup=defeatNS;document.oncontextmenu=defeatIE;} document.oncontextmenu=new Function(&quot;return false&quot;)
+//]]&gt;&lt;/script&gt;
+
+&lt;style&gt;iframe {
+    width:100%;
+    height:100%;
+    overflow: hidden;
+    margin-top: -50px;
+}&lt;/style&gt;</b:widget-setting>
+      </b:widget-settings>
+      <b:includable id='main'>
+  <!-- only display title if it's non-empty -->
+  <b:if cond='data:title != &quot;&quot;'>
+    <h2 class='title'><data:title/></h2>
+  </b:if>
+  <div class='widget-content'>
+    <data:content/>
+  </div>
+
+  <b:include name='quickedit'/>
+</b:includable>
+    </b:widget>
+    <b:widget id='HTML3' locked='false' title='' type='HTML'>
+      <b:widget-settings>
+        <b:widget-setting name='content'>&lt;!doctype html&gt;
+
+
+&lt;style&gt;
+.footer {
+   position: fixed;
+   left: 0;
+height:60px;
+
+z-index:999;
+   bottom: -10;
+   width: 100%;
+   background: linear-gradient(180deg, rgba(2,0,36,1) -20%, rgba(22,226,245,1) 100%);
+   color:#4A4860;
+   text-align: center;
+}
+&lt;/style&gt;
+
+
+
+&lt;div class=&quot;footer&quot;&gt;
+&lt;p&gt;&lt;h4&gt;
+PahilaGana&lt;/h4&gt;&lt;/p&gt;&lt;/div&gt;&lt;/!doctype&gt;</b:widget-setting>
+      </b:widget-settings>
+      <b:includable id='main'>
+  <!-- only display title if it's non-empty -->
+  <b:if cond='data:title != &quot;&quot;'>
+    <h2 class='title'><data:title/></h2>
+  </b:if>
+  <div class='widget-content'>
+    <data:content/>
+  </div>
+
+  <b:include name='quickedit'/>
+</b:includable>
+    </b:widget>
+    <b:widget id='HTML1' locked='false' title='' type='HTML'>
+      <b:widget-settings>
+        <b:widget-setting name='content'>&lt;style&gt;#manu{
+
+
+width: 15%;
+height: 40px;
+position: fixed;
+bottom: 92.1%;
+  z-index:999;
+right: 9%;
+border: 0px solid;
+padding: 0px;
+background: transparent;
+border-radius: 0%;&lt;/style&gt;
+
+
+
+&lt;style&gt;#vivek{
+
+
+width: 100%;
+height: 40px;
+position: fixed;
+bottom: 93.6%;
+  z-index:999;
+right: 0%;
+border: 0px solid;
+padding: 30px;
+background: #16E2F5;
+border-radius:  0px 0px 4.4px 4px;&lt;/style&gt;
+
+
+&lt;style&gt;#vivek1{
+
+
+width: 102%;
+height:6%;
+position: fixed;
+right: -1%;
+  
+
+
+background: #1E1E1C;
+border-radius: 0%;&lt;/style&gt;</b:widget-setting>
+      </b:widget-settings>
+      <b:includable id='main'>
+  <!-- only display title if it's non-empty -->
+  <b:if cond='data:title != &quot;&quot;'>
+    <h2 class='title'><data:title/></h2>
+  </b:if>
+  <div class='widget-content'>
+    <data:content/>
+  </div>
+
+  <b:include name='quickedit'/>
+</b:includable>
+    </b:widget>
+    <b:widget id='HTML2' locked='false' title='' type='HTML'>
+      <b:widget-settings>
+        <b:widget-setting name='content'>&lt;!doctype html&gt;
+
+
+
+    
+	
+	
+	
+     
+	 &lt;link rel=&quot;stylesheet&quot; href=&quot;https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css&quot; /&gt;
+  &lt;script src=&quot;https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js&quot;&gt;&lt;/script&gt;
+  &lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js&quot;&gt;&lt;/script&gt;
+  &lt;script src=&quot;https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js&quot;&gt;&lt;/script&gt;
+  &lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css&quot; /&gt;
+  
+  
+
+
+
+         
+      
+    
+  
+
+&lt;div class=&quot;card-body&quot;&gt;
+        &lt;div class=&quot;row&quot;&gt;
+          &lt;div class=&quot;col-md-12&quot;&gt;
+            &lt;div class=&quot;form-group&quot;&gt;
+              
+      &lt;div id=&quot;vivek&quot;&gt;
+              &lt;input type=&quot;txt&quot; name=&quot;link&quot; placeholder=&quot;Songs Name Type here...&quot; class=&quot;form-control link&quot; required /&gt;&lt;/div&gt;
+
+
+
+
+  
+
+&lt;div id=&quot;manu&quot;&gt;
+
+&lt;dutton class=&quot;btn btn-success btn-block click-btn-down&quot; type=&quot;submit&quot;&gt;
+
+&lt;i class=&quot;fa fa-search&quot; style=&quot;font-size:22px;color:white&quot;&gt;&lt;/i&gt;
+
+
+&lt;/dutton&gt;
+&lt;/div&gt;
+
+
+
+
+             
+          
+         
+        
+          
+                &lt;div id=&quot;vivek1&quot;&gt;
+ &lt;div class=&quot;form-group mt-4 download-video&quot;&gt;&lt;/div&gt;
+&lt;img src=&quot;https://i.ibb.co/YfTxMH9/IMG-20220825-134005.jpg&quot; style=&quot;border: 0; width: 100%;&quot; /&gt; vivek
+
+
+&lt;/div&gt;
+            
+        
+      
+    
+  
+
+	   
+
+  
+&lt;style&gt;
+    body { background-color: #1E1E1C; }
+  &lt;/style&gt;
+
+                
+        
+
+
+                  
+                
+
+
+
+
+
+&lt;script type=&quot;text/javascript&quot;&gt;
+  $(&quot;.click-btn-down&quot;).click(function(){
+      var link = $(&quot;.link&quot;).val();
+    var fromate = $(&quot;.formte&quot;).children(&quot;option:selected&quot;).val();
+    var src =&quot;&quot;+link+&quot;=&quot;+fromate+&quot;&quot;;
+    downloadVideo(link,fromate);
+  });
+  function downloadVideo(link,fromate) {
+      $(&#39;.download-video&#39;).html(&#39;&lt;iframe style=&quot;width:100%;height:1000px;border:0;overflow:hidden;z-index:99999;&quot; scrolling=&quot;1&quot; src=&quot;https://clipzag.com/search?q=&#39;+link+&#39;&quot;&gt;&lt;/iframe&gt;&#39;);
+  }
+&lt;/script&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/!doctype&gt;</b:widget-setting>
+      </b:widget-settings>
+      <b:includable id='main'>
+  <!-- only display title if it's non-empty -->
+  <b:if cond='data:title != &quot;&quot;'>
+    <h2 class='title'><data:title/></h2>
+  </b:if>
+  <div class='widget-content'>
+    <data:content/>
+  </div>
+
+  <b:include name='quickedit'/>
+</b:includable>
+    </b:widget>
+  </b:section>
+  <!-- Please Keep The Credits -->
+  
+   
+   
+   
+ </body>
+</html>
